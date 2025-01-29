@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework/Menu/etc/menu.xsd">
+    <menu>
+        <add id="OneClick_Order::quick_orders" title="Quick Orders" module="OneClick_Order" sortOrder="10" parent="Magento_Sales::sales_operation"
+             action="oneclick_order/quickly_order" resource="OneClick_Order::quick_orders"/>
+    </menu>
+</config>
